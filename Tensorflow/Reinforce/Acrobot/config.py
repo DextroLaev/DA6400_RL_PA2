@@ -1,0 +1,5 @@
+NUM_TRAIN_STEPS = int(1e+5)
+NUM_ENVS = 8
+
+ALPHA = 5e-4
+GAMMA = 0.99
