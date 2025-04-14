@@ -43,6 +43,15 @@ Q(s,a) ← Q(s,a) + α [r + γ max_a' Q(s', a') - Q(s,a)]
 - Gymnasium
 - NumPy
 
+### How to run:
+```bash
+cd Tensorflow
+cd Reinforce
+cd Cartpole
+python3 train_and_test.py # or
+bash run.sh
+```
+
 ## Team Members
 - Shuvrajeet Das [DA24D402] (IIT Madras, DSAI Dept)  
   [da24d402@smail.iitm.ac.in] | [shuvrajeet17@gmail.com]
