@@ -52,6 +52,18 @@ python3 train_and_test.py # or
 bash run.sh
 ```
 
+### To test the performance of the agent in Pytorch:
+```bash
+cd pytorch/Acrobot
+python simulate.py
+```
+
+### To Train the agent Again:
+```
+cd pytorch/Acrobot
+python train.py
+```
+
 ## Team Members
 - Shuvrajeet Das [DA24D402] (IIT Madras, DSAI Dept)  
   [da24d402@smail.iitm.ac.in] | [shuvrajeet17@gmail.com]
