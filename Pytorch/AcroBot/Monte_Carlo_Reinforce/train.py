@@ -9,6 +9,9 @@ def moving_average(rewards, window=100):
     return np.convolve(rewards, np.ones(window)/window, mode='valid')
 
 def train_reinforce_mc(env_name,seed, epsiodes, batch_size, save_model=False, include_baseline=False):
+    np.random.seed(seed)
+    torch.manual_seed(seed=seed)
+    torch.cuda.manual_seed(seed)
     env = gym.make(env_name)
     env.reset(seed=seed)
     env.action_space.seed(seed)
