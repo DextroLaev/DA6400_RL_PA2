@@ -4,7 +4,7 @@
 [![JAX](https://img.shields.io/badge/JAX-0.4.1-orange)](https://github.com/google/jax)
 [![NumPy](https://img.shields.io/badge/NumPy-1.22.0-blue)](https://numpy.org/)
 
-This repository contains the implementation and analysis of Q-Learning and SARSA algorithms applied to two classic reinforcement learning environments: CartPole-v1 and Acrobot-v1. The project was completed as part of the DA6400 Reinforcement Learning course.
+This repository contains the implementation and analysis of Dueling DQN and Monte Carlo Reinforce algorithms applied to two classic reinforcement learning environments: CartPole-v1 and Acrobot-v1. The project was completed as part of the DA6400 Reinforcement Learning course.
 
 ## Project Overview
 This project empirically evaluates two fundamental Reinforcement Learning (RL) algorithms—SARSA and Q-Learning—across three Gymnasium environments with varying complexity:
